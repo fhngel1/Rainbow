@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
-const prefix = "g!"
+const prefix = "#r"
 
 console.log(`hello`)
 
@@ -26,15 +26,15 @@ client.user.setGame(`🌈RAINBOW|g!help-R | g!invite`);
 
 
    client.on("message", message => {
- if (message.content === "g!help-R") {
+ if (message.content === "#rhelp") {
      message.channel.send('**:heart_exclamation: تم ارسال رسالة في الخاص**  ');
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setDescription(`
              
 ====================🌈 Help Rainbow. 🌈=====================
-g!set = لبدا وانشاء رتبه الرينبو | Rainbow Start & Create Rainbow Role
-g!invite = لاضافه البوت | Bot Invite 
+#rset = لبدا وانشاء رتبه الرينبو | Rainbow Start & Create Rainbow Role
+#rinvite = لاضافه البوت | Bot Invite 
 **!ملاحظه: اذا ما شتغل البوت جرب تحط رتبه البوت اعلى من رتبه الرينبو ** 
 **NOTE: If the bot is working, try to drop the bot role higher than the Rainbow role !**
 =====================🌈 Help Raibow. 🌈=====================
