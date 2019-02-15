@@ -18,7 +18,7 @@ client.user.setGame(`🌈Paris, Raindow #rinvite`);
 		   .setTimestamp()
 		   .setFooter(`Requested By | ${message.author.username}`)
 		   .setColor("RANDOM")
-		   message.channel.send(":white_check_mark: | Check Your DM! تم الأرسال بلخاص")
+		   message.channel.send("🌈 | Check Your DM! تم الأرسال بلخاص")
 		   message.author.send({embed})
 	   }
    });
